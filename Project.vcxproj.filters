@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="Template.asm" />
+    <MASM Include="addsub3.asm" />
+    <MASM Include="addSub.asm" />
+    <MASM Include="addSub2.asm" />
+    <MASM Include="addsub4.asm" />
+    <MASM Include="指针.asm" />
+    <MASM Include="addSub5.asm" />
+    <MASM Include="07multiShf.asm" />
+    <MASM Include="07ASCII_add.asm" />
+    <MASM Include="07CompareMult.asm" />
+    <MASM Include="07ExtAdd.asm" />
+    <MASM Include="07aaa_aas.asm" />
+    <MASM Include="07ADDPacked.asm" />
+    <MASM Include="08Endless.asm" />
+    <MASM Include="08CSum.asm" />
+    <MASM Include="08Fact.asm" />
+    <MASM Include="08Swap.asm" />
+    <MASM Include="05sum.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="05sum2.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="05sum3.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="05TestLib1.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="05TestLib2.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="05TestLib3.asm">
+      <Filter>05</Filter>
+    </MASM>
+    <MASM Include="06ArrayScan.asm">
+      <Filter>06</Filter>
+    </MASM>
+    <MASM Include="06Encrypt.asm">
+      <Filter>06</Filter>
+    </MASM>
+    <MASM Include="06ifwhile.asm">
+      <Filter>06</Filter>
+    </MASM>
+    <MASM Include="06ifwhileTest.asm">
+      <Filter>06</Filter>
+    </MASM>
+    <MASM Include="06ProcTable.asm">
+      <Filter>06</Filter>
+    </MASM>
+    <MASM Include="_prompt.asm">
+      <Filter>08sumEXTERN</Filter>
+    </MASM>
+    <MASM Include="_arraysum.asm">
+      <Filter>08sumEXTERN</Filter>
+    </MASM>
+    <MASM Include="_display.asm">
+      <Filter>08sumEXTERN</Filter>
+    </MASM>
+    <MASM Include="Sum_main.asm">
+      <Filter>08sumEXTERN</Filter>
+    </MASM>
+    <MASM Include="_prompt2.asm">
+      <Filter>08sum2PROC_CALL</Filter>
+    </MASM>
+    <MASM Include="_arraySum2.asm">
+      <Filter>08sum2PROC_CALL</Filter>
+    </MASM>
+    <MASM Include="_display2.asm">
+      <Filter>08sum2PROC_CALL</Filter>
+    </MASM>
+    <MASM Include="Sum_main2.asm">
+      <Filter>08sum2PROC_CALL</Filter>
+    </MASM>
+    <MASM Include="09A.asm" />
+    <MASM Include="09BCmpsb.asm" />
+    <MASM Include="09C_Mult.asm" />
+    <MASM Include="09_E_TwoFind.asm" />
+    <MASM Include="09E_TwoFind.asm" />
+    <MASM Include="10A.asm" />
+    <MASM Include="10B_Allpoints.asm" />
+    <MASM Include="10C_ShowTime.asm" />
+    <MASM Include="10_D_Walk.asm">
+      <Filter>10D_walk</Filter>
+    </MASM>
+    <MASM Include="10Dlink.asm" />
+    <MASM Include="11B_MessageBox.asm" />
+    <MASM Include="11C_ReadConsole.asm" />
+    <MASM Include="11A.asm" />
+    <MASM Include="11D_TestReadkey.asm" />
+    <MASM Include="11E_Keybd.asm" />
+    <MASM Include="11F_Console.asm" />
+    <MASM Include="11G_CreateFile.asm" />
+    <MASM Include="11H_ReadFile.asm" />
+    <MASM Include="11I_Scroll.asm" />
+    <MASM Include="11J_WriteColors.asm" />
+    <MASM Include="11K_Timer.asm" />
+    <MASM Include="11L_WinApp.asm" />
+    <MASM Include="11M_Heaptest1.asm" />
+    <MASM Include="11M_Heaptest2.asm" />
+    <MASM Include="08A_stack.asm" />
+    <MASM Include="12C_AsmFindArray.asm">
+      <Filter>12C_Find</Filter>
+    </MASM>
+    <MASM Include="12A.asm" />
+    <MASM Include="12F_asmMain.asm">
+      <Filter>12F_Printf_Example</Filter>
+    </MASM>
+    <MASM Include="12G_asmMain.asm">
+      <Filter>12G_DirectoryListing</Filter>
+    </MASM>
+    <MASM Include="12D_subr.asm">
+      <Filter>12D_MultiplicationTable</Filter>
+    </MASM>
+    <MASM Include="12H_ReadSec.asm">
+      <Filter>12H_16位汇编</Filter>
+    </MASM>
+    <MASM Include="12I_longrand.asm">
+      <Filter>12I_Random</Filter>
+    </MASM>
+    <MASM Include="13B_Hello.asm" />
+    <MASM Include="13D_Keybd.asm" />
+    <MASM Include="13E_DateTime.asm" />
+    <MASM Include="13C_Encrypt.asm" />
+    <MASM Include="13F_Readfile.asm" />
+    <MASM Include="13G_Binfile.asm" />
+    <MASM Include="14B_DiskSpc.asm" />
+    <MASM Include="14C_ClearKbd.asm" />
+    <MASM Include="14D_TextWin.asm" />
+    <MASM Include="14E_ColorStr.asm" />
+    <MASM Include="15A_DrawLine.asm" />
+    <MASM Include="15B_Pixe12.asm" />
+    <MASM Include="15C_Model3.asm" />
+    <MASM Include="15D_mouse.asm" />
+    <MASM Include="16A_MultCode.asm" />
+    <MASM Include="16B_MultData.asm" />
+    <MASM Include="16C_.asm">
+      <Filter>16C</Filter>
+    </MASM>
+    <MASM Include="Seg2a.asm">
+      <Filter>16C</Filter>
+    </MASM>
+    <MASM Include="16C_HelloCom.asm" />
+    <MASM Include="16C_HelloCom2.asm" />
+    <MASM Include="16D_Ctrlbrk.asm" />
+    <MASM Include="16E_No_Reset.asm" />
+    <MASM Include="16F_Spkr.asm" />
+    <MASM Include="17B_FloatTest32.asm" />
+    <MASM Include="17A.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+    <Text Include="08CallMethod.asm" />
+    <Text Include="09D_Bubble.asm" />
+    <Text Include="a.txt">
+      <Filter>12B_CODE</Filter>
+    </Text>
+    <Text Include="b.txt">
+      <Filter>12B_CODE</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mov.asm" />
+    <None Include="sum.inc">
+      <Filter>08sum2PROC_CALL</Filter>
+    </None>
+    <None Include="14A_Sector.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="20160827191718047.png" />
+    <Image Include="基于特定CPU标志位的跳转指令.png" />
+    <Image Include="基于无符号数比较的跳转指令.png" />
+    <Image Include="基于有符号比较的跳转指令.PNG" />
+    <Image Include="内存模型.PNG" />
+    <Image Include="基本的字符串处理指令.PNG" />
+    <Image Include="条件汇编伪指令1.PNG" />
+    <Image Include="条件汇编伪指令2.PNG" />
+    <Image Include="运行时关系和逻辑运算符.PNG" />
+    <Image Include="字符串指令中方向标志的使用.PNG" />
+    <Image Include="段的组合方式.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="05">
+      <UniqueIdentifier>{c396767a-5fe2-4940-a10e-b2b2b56d6b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06">
+      <UniqueIdentifier>{fc2bf06a-7d19-4dc3-b47b-3fd466e1b066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08sumEXTERN">
+      <UniqueIdentifier>{419e8af1-62a5-4b09-b1a5-666f84cc2673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08sum2PROC_CALL">
+      <UniqueIdentifier>{2c4e1238-7026-40b8-b0d1-9b38c64c3c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10D_walk">
+      <UniqueIdentifier>{3d676699-5254-4d0b-86fa-1452aba6f268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12B_CODE">
+      <UniqueIdentifier>{708526ea-6e57-4515-a4f4-29facac0e742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12C_Find">
+      <UniqueIdentifier>{a8293be7-dc88-41b0-a200-caec58bb9a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12F_Printf_Example">
+      <UniqueIdentifier>{eaee9ecd-ce67-4126-917b-64d45ee4b5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12D_MultiplicationTable">
+      <UniqueIdentifier>{a6804717-222f-4ffd-9038-cdcc060b3d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12G_DirectoryListing">
+      <UniqueIdentifier>{e84cd6b6-5d86-420b-82f1-3eb5634ec546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12H_16位汇编">
+      <UniqueIdentifier>{797b9b43-37aa-4da3-9198-5eb06937abf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12I_Random">
+      <UniqueIdentifier>{1a4bcd0f-ca86-4e5d-9afc-6c4d3ff5c4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16C">
+      <UniqueIdentifier>{633bdd76-b82c-4e07-af77-325dcf5a08d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="06Finite.asm">
+      <Filter>06</Filter>
+    </_EmbedManagedResourceFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="12B_ENCODE.cpp">
+      <Filter>12B_CODE</Filter>
+    </ClCompile>
+    <ClCompile Include="12B_translat.cpp">
+      <Filter>12B_CODE</Filter>
+    </ClCompile>
+    <ClCompile Include="12C_fmain.cpp">
+      <Filter>12C_Find</Filter>
+    </ClCompile>
+    <ClCompile Include="12C_FindArray.cpp">
+      <Filter>12C_Find</Filter>
+    </ClCompile>
+    <ClCompile Include="12E_C与ASM字符对比_.cpp" />
+    <ClCompile Include="12F_main.cpp">
+      <Filter>12F_Printf_Example</Filter>
+    </ClCompile>
+    <ClCompile Include="12G_main.cpp">
+      <Filter>12G_DirectoryListing</Filter>
+    </ClCompile>
+    <ClCompile Include="12D_main.cpp">
+      <Filter>12D_MultiplicationTable</Filter>
+    </ClCompile>
+    <ClCompile Include="12H_main.cpp">
+      <Filter>12H_16位汇编</Filter>
+    </ClCompile>
+    <ClCompile Include="12I_main.cpp">
+      <Filter>12I_Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="12B_translat.h">
+      <Filter>12B_CODE</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="12C_findarr.h">
+      <Filter>12C_Find</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc" />
+  </ItemGroup>
+</Project>
